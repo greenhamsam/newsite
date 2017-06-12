@@ -1,3 +1,8 @@
+---
+layout: default
+title:  "About"
+---
+
 # Testing
 
 Here is me testing some shit.
