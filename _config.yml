@@ -14,17 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "en-GB"
-title: Society of Fucking Grownups
+title: ""Society of Fucking Grownups"
 email: howzit@fuckinggrownups.com
 name: "Sam Beckbessinger"
 description: > # this means to ignore newlines until "baseurl:"
   A community learning to be grownups about managing our money. Come say hi, learn some stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.fuckinggrownups.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: greenhamsam
-github_username:  greenhamsam
+twitter_username: "greenhamsam"
+github_username:  "greenhamsam"
 repository: "greenhamsam/newsite"
-teaser: /assets/images/sam.jpg
+teaser: "/assets/images/sam.jpg"
 breadcrumbs: true
 
 comments:
@@ -39,6 +39,12 @@ defaults:
       type: posts
     values:
       comments: true
+
+author:
+  name   : "Sam Beckbessinger"
+  avatar : "/assets/img/sam.jpg"
+  bio    : "Money dork. Entrepreneur."
+  email  : "howzit@fuckinggrownups.com"
 
 # Build settings
 markdown: kramdown
