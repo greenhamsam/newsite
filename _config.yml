@@ -24,6 +24,21 @@ url: "https://www.fuckinggrownups.com" # the base hostname & protocol for your s
 twitter_username: greenhamsam
 github_username:  greenhamsam
 repository: "greenhamsam/newsite"
+teaser: /assets/images/sam.jpg
+breadcrumbs: true
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "SamBeckbessinger"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
 
 # Build settings
 markdown: kramdown
